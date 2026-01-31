@@ -1,0 +1,99 @@
+Step 3
+#include <Servo.h>
+
+class Flasher {
+  int ledPin;
+  unsigned long onTime;
+  unsigned long offTime;
+
+  int ledState;
+  unsigned long previousMillis;
+
+public:
+  Flasher(int pin, unsigned long on, unsigned long off)
+  : ledPin(pin), onTime(on), offTime(off), ledState(LOW), previousMillis(0)
+  {
+    pinMode(ledPin, OUTPUT);
+    digitalWrite(ledPin, ledState);
+  }
+
+  void Update() {
+    unsigned long currentMillis = millis();
+
+    if (ledState == HIGH && (currentMillis - previousMillis) >= onTime) {
+      ledState = LOW;
+      previousMillis = currentMillis;
+      digitalWrite(ledPin, ledState);
+    }
+    else if (ledState == LOW && (currentMillis - previousMillis) >= offTime) {
+      ledState = HIGH;
+      previousMillis = currentMillis;
+      digitalWrite(ledPin, ledState);
+    }
+  }
+};
+
+class Sweeper {
+  Servo servo;
+  int pos;
+  int increment;
+  unsigned long updateInterval;
+  unsigned long lastUpdate;
+
+public:
+  Sweeper(unsigned long intervalMs)
+  : pos(0), increment(1), updateInterval(intervalMs), lastUpdate(0) {}
+
+  void Attach(int pin) { servo.attach(pin); }
+  void Detach() { servo.detach(); }
+
+  void Update() {
+    unsigned long now = millis();
+    if (now - lastUpdate >= updateInterval) {
+      lastUpdate = now;
+
+      pos += increment;
+      servo.write(pos);
+
+      // Optional debug:
+      // Serial.println(pos);
+
+      if (pos >= 180 || pos <= 0) {
+        increment = -increment;
+      }
+    }
+  }
+};
+
+const int buttonPin = 2;  // wired to GND when pressed (INPUT_PULLUP)
+const int servoPin1  = 9;
+const int servoPin2  = 10;
+
+Flasher led1(11, 123, 400);
+Flasher led2(12, 350, 350);
+Flasher led3(13, 200, 222);
+
+Sweeper sweeper1(15);
+Sweeper sweeper2(25);
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(buttonPin, INPUT_PULLUP);
+
+  sweeper1.Attach(servoPin1);
+  sweeper2.Attach(servoPin2);
+}
+
+void loop() {
+  bool buttonPressed = (digitalRead(buttonPin) == LOW);
+
+  if (buttonPressed) {
+    sweeper1.Update();
+    sweeper2.Update();
+    led1.Update();   // optional: only blink while pressed
+  }
+
+  led2.Update();     // always blinking
+  led3.Update();     // always blinking
+}
