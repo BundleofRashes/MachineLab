@@ -1,5 +1,5 @@
 # Journal 
-** Homework Tuesday, 3 February 2026**
+** Homework Tuesday, 3 February 2026 **
 
 ## Revisiting the project from ~2 years ago
 
