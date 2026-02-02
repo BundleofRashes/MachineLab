@@ -1,5 +1,5 @@
-# Physical Computing Journal — Arduino Sequence Project  
-**Due: Tuesday, 3 February 2026**
+# Journal 
+** Homework Tuesday, 3 February 2026**
 
 ## Revisiting the project from ~2 years ago
 
