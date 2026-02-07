@@ -1,4 +1,21 @@
 # Journal 
+
+
+**Homework Thursday, 5 February 2026**
+
+## Sketching Idea
+
+I chose two games and I will explain the main component for Each Below:
+
+*The Last of Us:
+
+One thing that is very prominant in the Series, game, and comics is the cordyceps and how they grow (They're the main virus that, when started spreading, turned everyone into clockers, zombies, etc..) But, a visual that is used in all of these is when it grows. [see the show opening credits for reference](https://www.youtube.com/watch?v=8SWhBsbxmpk)
+What I was thinking is to have a thin line of wood that acts like a branch in a tree and when you'd press the button, it'd make vines slowly apprear from the back and they start at the bottom but add more and more. These are attached to motors that slowly move and reveal the cordyceps.
+
+*Dance Dance Revolution (Project D1va)
+
+This one's pretty simple, __Four belt-and-roller system__ and each one would have an arrow attached to it like in the game and they'd move according to the music that's played.
+
 **Homework Tuesday, 3 February 2026**
 
 ## Revisiting the project from ~2 years ago
