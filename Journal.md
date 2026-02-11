@@ -1,5 +1,86 @@
 # Journal 
 
+**Homework Thursday, 5 February 2026**
+
+## Motor Exercise
+
+## What I Built
+I wired the DC motor to the L298N motor driver and connected:
+- Enable pin (enA) to PWM pin 9
+- IN1 to pin 8
+- IN2 to pin 7
+- Push button to pin 4
+- Potentiometer to A0
+
+The potentiometer smoothly controls speed from 0–255 using PWM.  
+The push button toggles the motor’s direction each time it is pressed.
+
+## Demo Video
+[Motor Demo Video (.mov)](.DemoVideo.mov)
+
+## Issues I Encountered
+At first, the motor did not change direction consistently. I realized the issue was with how the button press was being read. Without proper debounce handling, the state would sometimes flip multiple times.
+
+I fixed this by:
+- Adding a toggle variable (`pressed`)
+- Waiting until the button was released using a `while` loop
+- Adding a small delay to debounce
+
+After that, the direction switching worked :p
+
+
+## Arduino Code
+
+
+// --- Define your pins here ---
+const int enA = 9;      // PWM pin for speed control
+const int in1 = 8;      // Direction pin 1
+const int in2 = 7;      // Direction pin 2
+const int button = 4;   // Push button pin
+const int potPin = A0;  // Potentiometer pin
+
+int rotDirection = 0;
+int pressed = false;
+
+void setup() {
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(button, INPUT);
+
+  // Set initial rotation direction
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+}
+
+void loop() {
+  int potValue = analogRead(A0); // Read potentiometer value
+  int pwmOutput = map(potValue, 0, 1023, 0 , 255); // Map to 0–255
+  analogWrite(enA, pwmOutput); // Send PWM signal
+
+  // Read button - Debounce
+  if (digitalRead(button) == true) {
+    pressed = !pressed;
+  }
+
+  while (digitalRead(button) == true);
+  delay(20);
+
+  // Change rotation direction
+  if (pressed == true && rotDirection == 0) {
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+    rotDirection = 1;
+    delay(20);
+  }
+
+  if (pressed == false && rotDirection == 1) {
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    rotDirection = 0;
+    delay(20);
+  }
+}
 
 **Homework Thursday, 5 February 2026**
 
