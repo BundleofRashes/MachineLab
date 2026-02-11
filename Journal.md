@@ -17,13 +17,7 @@ The push button toggles the motor’s direction each time it is pressed.
 
 ## Demo Video
 
-<p align="center">
-  <iframe width="360" height="640"
-    src="https://www.youtube.com/embed/jU8DkR8hZ6A"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</p>
+[![Motor Demo](https://img.youtube.com/vi/jU8DkR8hZ6A/0.jpg)](https://youtube.com/shorts/jU8DkR8hZ6A)
 
 
 ## Issues I Encountered
