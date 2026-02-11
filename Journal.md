@@ -4,7 +4,7 @@
 
 ## Motor Exercise
 
-## What I Built
+### What I Built
 I wired the DC motor to the L298N motor driver and connected:
 - Enable pin (enA) to PWM pin 9
 - IN1 to pin 8
@@ -16,7 +16,15 @@ The potentiometer smoothly controls speed from 0–255 using PWM.
 The push button toggles the motor’s direction each time it is pressed.
 
 ## Demo Video
-[Motor Demo Video (.mov)](DemoVideo.mov)
+
+<p align="center">
+  <iframe width="360" height="640"
+    src="https://www.youtube.com/embed/jU8DkR8hZ6A"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</p>
+
 
 ## Issues I Encountered
 At first, the motor did not change direction consistently. I realized the issue was with how the button press was being read. Without proper debounce handling, the state would sometimes flip multiple times.
