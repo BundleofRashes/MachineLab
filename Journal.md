@@ -16,7 +16,7 @@ The potentiometer smoothly controls speed from 0–255 using PWM.
 The push button toggles the motor’s direction each time it is pressed.
 
 ## Demo Video
-[Motor Demo Video (.mov)](.DemoVideo.mov)
+[Motor Demo Video (.mov)](DemoVideo.mov)
 
 ## Issues I Encountered
 At first, the motor did not change direction consistently. I realized the issue was with how the button press was being read. Without proper debounce handling, the state would sometimes flip multiple times.
