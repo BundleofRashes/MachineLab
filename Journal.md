@@ -1,4 +1,52 @@
 # Journal 
+**Homework Tuesday, 16thFebruary 2026**
+
+### Ideas for Mechanisms
+
+We have a shared google doc that we wrote down potential ideas for our final project which had very strong and very much doable concepts and ideas. However, for this specific assignment, we had to focus on two (or more) mechanisms. Sara came up with the ideas:
+
+We'd do four main ideas that we'd hopefully build on for our final:
+- 1. An updated minecart rail that speeds up when it reaches a certain rail.
+- 2. A TNT block that shakes/vibrates, like it is about to explode
+- 3. A Furnace that lights up, indicating that something is cooking.
+- 4. A chest that closes and opens repeatedly.
+
+ ## Mechanisms:
+
+### Minecart
+
+Sara had already built the minecart and she wanted to fix, debug and add something to her older mechanism in order for it to speed up when it reaches the special rail. What she ended up doing was adding a light sensor to the trail the minecart was spinning on, specifically on the special rail so that when the minecart does hover over it, The light sensor would detect that it is darker which would tell the motor to speed up.
+
+
+### TNT
+ 
+For the TNT part, Stefania built it and attached a servo motor on the bottom of it and wrote the code for it to viberate. She had to leave early and she couldn't figure out the debuging part before leaving. I figured out that the issue was not in the code but it's in the jumper wires (I understand the hate towards them now), I did have too tweak a bit of the code for it to look like it was vibrating; The premise of the code was that the motor would add then subtract -5 degrees which was too slow for the illusion of vibration so I simply changed the -5 to a -2 and +2 and it worked. Although I still think it needs a better motor but thats a problem for future Rashed :)
+
+### Chest
+
+For the chest part, I struggled with figuring out how to DIY a hinge because I could not get an idea on how i'd make the chest open AND close without a hinge. After much thinking and waiting for my singular brain cell to work, I realized that I don't necessarly need a HINGE hinge, I can make the servo motor act like one for now! I attached the servo motor to the back of the chest and coded the motor to start from 90 degrees and more to 0 degrees, pause for two seconds, go to it's intial position of 90 degrees, wait for another two seconds and repeat! I (surprisingly) didn't face any issues with my arduino which is always a pleasure since all arduinos have done is be evil and possessed by demons from evil town.
+
+
+### Furnace
+
+I was not present when this was built, but it looks cool!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Homework Thursday, 5 February 2026**
 
