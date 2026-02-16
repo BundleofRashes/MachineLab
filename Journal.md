@@ -1,5 +1,5 @@
 # Journal 
-**Homework Tuesday, 16thFebruary 2026**
+**Homework Tuesday, 16th February 2026**
 
 ### Ideas for Mechanisms
 
