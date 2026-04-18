@@ -1,4 +1,52 @@
 # Journal 
+
+# Sunday, 12th April 2026
+
+## Meeting Two
+
+We discussed Madmapper and potental ways to further expand on my project
+
+### Update #1
+
+I give up... but in a good way cause I found a better solution! I'll use boxes in my background instead of my wayy and instead of mechanisms that are *on* the projector, theyll be on the projected surface and the animation will interact with the mechanisms!!
+
+### Update #2
+
+I made a rough sketch but I'm not sure about it yet because for this one, we would absolutely NEED Madmapper or this would take more time that I have. Here's the sketch where I found that out:
+
+<img width="2639" height="1402" alt="IMG_0415" src="https://github.com/user-attachments/assets/4417c2a4-5cc5-4bf1-a9d1-91c664c3f1fe" />
+
+### Update #3
+
+After an unsucsessful trip to the IM lab (they didnt give me acess to the room), I've decided to switch things up once again and since I could not get the proper material I needed to complete my project fully, I will fully pivot and avoid using projection mapping. But it is something that I intend to work on further once I get the proper materials but for the sake of time, I will look at video game; this time Super Mario Galaxy but in a form of a music box, I already have an appropriate box I can use and I would only need to use cardboard to futher develop this. Here's a sketch of that:
+
+<img width="2455" height="1250" alt="IMG_0413" src="https://github.com/user-attachments/assets/146594e8-f055-4847-981e-42783809dfdb" />
+
+
+
+
+# Sunday, 5th April 2026
+
+## Meeting One
+
+We discussed where we could take this, in terms of the individual projects. 
+I proposed a projection Mapping Idea! I would buy a projector, Put it (or hang it up) right on top of mt bed to project it on the wall and use cutouts that resemble my interests and I'd animate around that using After Effects and map it using MadMapper.
+
+## Here's a rough sketch of that!
+
+<img width="2516" height="1207" alt="IMG_0414" src="https://github.com/user-attachments/assets/866b9238-6e74-42d6-ad1a-d9d70b88ef79" />
+
+### Update #1
+
+The projector arrived that had the perfect settings for mapping, I'll start woring on the mapping tomorrow
+
+### Update #2
+I found out that my MadMapper liscence was revoked but Touchdesigner will do for now!
+
+<img width="4712" height="3284" alt="IMG_0358" src="https://github.com/user-attachments/assets/c8b75f38-304c-45bb-b8fc-0e16433e5f56" />
+
+
+
 **Homework Tuesday, 16th February 2026**
 
 ### Ideas for Mechanisms
