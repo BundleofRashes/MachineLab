@@ -1,5 +1,56 @@
 # Journal 
 
+# Sunday, 26th April 2026
+
+## Meeting Four (losing my sanity)
+
+Ok, professor told me that I should be proud of myself but told me to not get "too" excited cause I still need to figure out how to run things smoothly and I think he's right!! I need to figure out how I'm gonna organize all of this in the box, consider the fact that it should be update friendly (as in I can open it whenever and tweak it however I want) then I also need to figure out the rest of the rope mechanisms. This is so tea, he's so right.
+
+### Update #1 
+
+I am losing my sanity, everything went wrong; the battery pack that i used, one of its wires broke off and I dont have a soldering machine, The stupid jumper wired arent staying in their place, the wires from the button are too long and stubbon and they keep blocking EVERYTHING arounf the and I cant relly cut them cause I dont have scissors for that and I disconnected everything from the arduino and I dont remember the code or where everything is supposed to go...<img width="551" height="497" alt="image-2" src="https://github.com/user-attachments/assets/49ac0a4b-05a6-44ed-a4b7-1d5286c21273" />
+
+### Update #2
+
+Not a great start to my week, but I took a step back and analysed where everything went wrong, put them in a list from most important to least important and started with the battery pack cause if i cant get that to work, I cant really get it to work at all since i need to power multiple servos. I found a temporary'ish solution which is to use a nail clipper to carefully remore the red from around the wire and i stuck it to one of the + sides to onw of the batteries and prayed to god that it doesnt explode and I dont die and it didnt :) 
+
+### Update #3
+
+I started assembling everything in the box; I'm too scared to cut off the long wires from the button but i figured out a way to organize everything (for my eyes) and put everything together strategically and I'm so so so glad everything worked out!! I might go to campus this sunday which will make everything a bit more smooth sailing. <img width="750" height="737" alt="image-3" src="https://github.com/user-attachments/assets/086ca273-7237-46f5-8aa1-16973fd7d70b" />
+
+
+
+# Sunday, 19th April 2026
+
+## Meeting Three? (I lost track of time)
+
+
+
+We discussed my project, how it was going and prof gave me tips on powering multiple servo motoes at once!! I'll go to campus to gather items later this week, hopefully I'll find what I need.
+
+### Update #1
+
+I got everything I need, need to figure out what goes where and start putting everything together.
+
+### Update #2
+
+Note to self: DO NOT go against the instructions and plug in your servos into the 12v adapter, it'll burn them out <3
+
+### Update #3
+
+I got the main servo motor working, just not the others because of the power thing, i need to find a solution. Also the button i stole from my Intro to IM project is only half working for some reason. I started contemplating my life decisions. 
+
+### Update #4
+
+I got the sequence working!! The button works, the motors work and everything works!!! 
+
+I decided that focusing on the coding part first then worrying about everything else later would do the trick and, so far, I feel great about this, and i might finish this sooner rather than later!! Suuuper excited to show my professor, super proud of my code-hating self for being friends with coding (for once)
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail" width="500">
+</a>
+
+
 # Sunday, 12th April 2026
 
 ## Meeting Two
