@@ -18,6 +18,11 @@ Not a great start to my week, but I took a step back and analysed where everythi
 
 I started assembling everything in the box; I'm too scared to cut off the long wires from the button but i figured out a way to organize everything (for my eyes) and put everything together strategically and I'm so so so glad everything worked out!! I might go to campus this sunday which will make everything a bit more smooth sailing. <img width="750" height="737" alt="image-3" src="https://github.com/user-attachments/assets/086ca273-7237-46f5-8aa1-16973fd7d70b" />
 
+### Here's a pic of the semi organized box!!!
+
+<img width="4284" height="5712" alt="IMG_0643" src="https://github.com/user-attachments/assets/172cf224-730a-4619-85c9-a7f733551bf9" />
+
+
 
 
 # Sunday, 19th April 2026
