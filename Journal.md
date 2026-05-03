@@ -20,8 +20,7 @@ I started assembling everything in the box; I'm too scared to cut off the long w
 
 ### Here's a pic of the semi organized box!!!
 
-<img width="4284" height="5712" alt="IMG_0643" src="https://github.com/user-attachments/assets/172cf224-730a-4619-85c9-a7f733551bf9" />
-
+<img width="5712" height="4284" alt="IMG_0644" src="https://github.com/user-attachments/assets/315fc710-b8c9-4707-a458-c65dbac00809" />
 
 
 
