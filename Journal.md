@@ -46,10 +46,9 @@ I got the sequence working!! The button works, the motors work and everything wo
 
 I decided that focusing on the coding part first then worrying about everything else later would do the trick and, so far, I feel great about this, and i might finish this sooner rather than later!! Suuuper excited to show my professor, super proud of my code-hating self for being friends with coding (for once)
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail" width="500">
+<a href="https://youtu.be/W3ClJkvQeTU" target="_blank">
+  <img src="https://img.youtu.be/W3ClJkvQeTU/maxresdefault.jpg" alt="Video Thumbnail" width="500">
 </a>
-
 
 # Sunday, 12th April 2026
 
