@@ -1,5 +1,18 @@
 # Journal 
 
+# Tuesday, 5th May 2026
+
+## Meeting Five (Gaining that sanity back)
+Professor gave me very solid tips on how I can approach my box specifically the string apart. I kind of forgot about the fact that attaching the strings would throw my (allegedly) smart idea of having the top removable for easy access to the arduino away and I'd have to completely disregard it WHICH IM FINE WITH CAUSE IM CURTTING OPEN THE BOX FROM ONE SIDE TO HAVE EVEN EASIER ACCESS (IM COPNG LEAVE ME ALONE).
+
+<img width="736" height="736" alt=" -17" src="https://github.com/user-attachments/assets/0b41b266-7ca5-4a50-8ee2-f8d0c05366cb" />
+
+### Update #1
+I cut open the box from one side :( (very sad, I know) but now the access is better! I tried experementing with the strings but they're not pulling as much as I want them to so they're as noticeable as I wanted them to be. The hot glue did **something** to the string which made them unequally as long. I'm using professor Michael's idea of the clip thingy to kind of control the length but its not holding the string so I have to shorten it. It is SUCH a hassle to do so, I wonder if there's an easier way to approach this. Feeling:
+
+<img width="598" height="610" alt="Screenshot 2026-05-05 at 10 56 08 AM" src="https://github.com/user-attachments/assets/cbd2afcd-f6c9-418a-af58-2dffd3c9d7de" />
+
+
 # Sunday, 26th April 2026
 
 ## Meeting Four (losing my sanity)
